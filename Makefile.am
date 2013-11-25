@@ -1,0 +1,3 @@
+AUTOMAKE_OPTIONS=foreign
+bin_PROGRAMS=playmusic
+playmusic_SOURCES=playmusic.c
