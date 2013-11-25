@@ -158,7 +158,7 @@ int play_sound_OSS(char *filename,int rate,int bits){
 }
 
 int main(int argc,char** argv){
-	if(*argv[4] == '1') //OSS
+	if(*argv[4] == '1')
         	play_sound_OSS(argv[1],atoi(argv[2]),atoi(argv[3]));
 #ifdef HAVE_ALSA
 	else
