@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -157,6 +157,7 @@ int play_sound_OSS(char *filename,int rate,int bits){
 
 }
 
+/*中文显示乱码问题*/
 int main(int argc,char** argv){
 	if(*argv[4] == '1')
         	play_sound_OSS(argv[1],atoi(argv[2]),atoi(argv[3]));
